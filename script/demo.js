@@ -45,5 +45,5 @@ if (window.location.hostname == 'jscrollpane.kelvinluck.com') {
 } else if(window.location.protocol == 'file:' || window.location.hostname == 'localhost') {
 	// Allow local testing without annoying alerts
 } else {
-	alert('Do not include demo.js on your site!');
+	console.log('Do not include demo.js on your site!');
 }
